@@ -11,7 +11,7 @@ print(morse_list)
 inp_str = input("Enter a String")
 output_list=[]
 for char in inp_str:
-    index_in_char_list = inp_str.index(char)
+    index_in_char_list = letter_list.index(char)
     morse_char = morse_list[index_in_char_list]
     output_list.append(morse_char)
 
